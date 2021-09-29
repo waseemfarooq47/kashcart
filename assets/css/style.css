@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+body {
+    margin: auto;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#black-top {
+    background: #000000db;
+    min-height: 55px;
+}
+
+.dark-items,
+.dark2-items {
+    padding: 0;
+    margin: 0;
+}
+.dark-items li,
+.dark2-items li {
+    display: inline-block;
+    list-style: none;
+    /* border-right: 1px solid #fff; */
+}
+
+.lng-itm {
+    width: 100% !important;
+}
+.lan-btn {
+    color: #000 !important;
+}
+
+.dark2-items li {
+    /* width: 180px; */
+    color: #fff;
+}
+
+.lan-btn a {
+    text-decoration: none;
+    color: #000;
+}
+
+.checkoutbtn {
+    min-width: 105px;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.checkoutbtn:last-child {
+    border: none;
+}
+
+.checkoutbtn a,
+.checkoutbtn a i {
+    text-decoration: none;
+    color: #fff;
+}

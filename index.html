@@ -174,7 +174,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-6 col-12">
-                        <nav class="navbar navbar-expand-lg navbar-light ">
+                        <nav class="navbar navbar-expand-lg navbar-light " style="margin-top: 12px;">
                             <div class="container-fluid">
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#categoriesMenu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -234,7 +234,7 @@
                                                                                 <img src="assets/images/toprate1.jpg" alt="toprated-img1">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-9 pb-1" style="border-bottom: 1px solid #eee;">
+                                                                        <div class="col-9 pb-1 text-center" style="border-bottom: 1px solid #eee;">
                                                                             <span class="toprate-title d-block">Best T-Shirt</span>
                                                                             <i class="trated-star fa fa-star"></i>
                                                                             <i class="trated-star fa fa-star"></i>
@@ -256,7 +256,7 @@
                                                                                 <img src="assets/images/toprate2.jpg" alt="toprated-img2">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-9 pb-1" style="border-bottom: 1px solid #eee;">
+                                                                        <div class="col-9 pb-1 text-center" style="border-bottom: 1px solid #eee;">
                                                                             <span class="toprate-title d-block">Bag Pack For child</span>
                                                                             <i class="trated-star fa fa-star"></i>
                                                                             <i class="trated-star fa fa-star"></i>
@@ -278,7 +278,7 @@
                                                                                 <img src="assets/images/toprate3.jpg" alt="toprated-img3">
                                                                             </div>
                                                                         </div>
-                                                                        <div class="col-9 pb-1" style="border-bottom: 1px solid #eee;">
+                                                                        <div class="col-9 pb-1 text-center" style="border-bottom: 1px solid #eee;">
                                                                             <span class="toprate-title d-block">Smart Bags</span>
                                                                             <i class="trated-star fa fa-star"></i>
                                                                             <i class="trated-star fa fa-star"></i>
@@ -315,25 +315,21 @@
                     <div class="col-lg-4 col-md-6 col-12">
                         <div class="row p-0 m-0">
                             <div class="col-6  p-2">
-                                <div class="services">
+                                <div class="services text-center">
                                     <i class="fa fa-globe rotate fa-2x me-3"></i>
-                                </div>
-                                <div class="services  text-center">
                                     <span class="ser-title"> Worldwide</span><br>
                                     <small><a href="#" >Free Shipping</a></small>
                                 </div>
                             </div>
                             <div class="col-6  p-2">
-                                <div class="services">
-                                    <i class="fa fa-globe rotate fa-2x me-3"></i>
-                                </div>
-                                <div class="services  text-center">
+                                <div class="services text-center">
+                                    <!-- <i class="fa fa-globe rotate fa-2x me-3"></i> -->
+                                    <img src="assets/images/customer.png" class="cussupport-icon" alt="customersupport">
                                     <span class="ser-title">24 x 7 Support</span> <br>
-                                    <small><a href="tel: +1800 546 764" >
+                                    <small class="text-center"><a href="tel: +1800 546 764" >
                                         +1800 546 764
                                     </a></small>
                                 </div>
-
                             </div>
                         </div>
 
@@ -343,6 +339,59 @@
             </div>
         </div>
     </header>
+
+    <section id="slider-cover">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 p-0 m-0">
+                    <div id="carouselIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner manual-carousel">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="assets/images/slider1.png" class="d-block w-100" alt="slider1">
+                                <!-- <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div> -->
+                                <div class="cour-tagline text-center">
+                                    <h1>Mens Trend 30% Off Fashion</h1>
+                                    <p>Lorem Ipsum is simply 30% off dummy text of the printing and typesetting industry. </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="assets/images/slider2.png" class="d-block w-100" alt="slider2">
+                                <div class="cour-tagline tagline2 text-center">
+                                    <h1>Girls Trend 40% Off Fashion</h1>
+                                    <p>Lorem Ipsum is simply 40% off dummy text of the printing and typesetting industry. </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/slider33.jpg" class="d-block w-100" alt="slider3">
+                                <div class="cour-tagline tagline-3 text-center">
+                                    <h1>Gadgets 20% Off Hurry!!</h1>
+                                    <p>Lorem Ipsum is simply 20% off dummy text of the printing and typesetting industry. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
 
 
 

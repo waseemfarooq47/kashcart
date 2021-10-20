@@ -349,7 +349,7 @@ body {
     font-weight: 600;
 }
 
-.featured-text h3,.featured-text p{
+.featured-text h3,.featured-text p,.mens-collection{
     text-transform: uppercase;
 }
 
@@ -383,7 +383,43 @@ body {
     background: #F89D18;
     color: #fff;
 }
+/* mens collection */
+.mens-collection{
+    margin-top: 88px;
+    border-bottom: 3px solid #eeeeee;
+}
 
+.oranges{
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    top: -2px;
+    left: 10px;
+    background-color: #F89D18;
+}
+
+
+.mencollection-card{
+    /* width: 18rem !important; */
+}
+.m-coltext h5 a ,.m-coltext p{
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.m-coltext h5 a:hover{
+    color:#F89D18
+}
+
+.m-coltext p{
+    font-size: 22px;
+}
+
+.discount{
+    color:#777777;
+    padding: 10px 0 0 10px;
+    font-size:14px;
+}
 /* media queries */
 @media (max-width:1200px) {
     #mega-drops {

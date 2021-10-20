@@ -401,7 +401,20 @@ body {
 
 .mencollection-card{
     /* width: 18rem !important; */
+    border-radius: 1px;
+    border: 1px solid #eee;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
 }
+
+.img-colcover{
+    height: 260px;
+    width: 245px;
+}
+.img-colcover img{
+    height: 100%;
+    width: 100%;
+}
+
 .m-coltext h5 a ,.m-coltext p{
     color:#000;
     text-decoration: none;
@@ -419,6 +432,10 @@ body {
     color:#777777;
     padding: 10px 0 0 10px;
     font-size:14px;
+}
+
+.mens-cards{
+    /* background: #eee; */
 }
 /* media queries */
 @media (max-width:1200px) {

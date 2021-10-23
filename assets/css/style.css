@@ -393,8 +393,9 @@ body {
     position: absolute;
     width: 200px;
     height: 3px;
-    top: -2px;
-    left: 10px;
+    top: -3px;
+    left: 0px;
+    top: -3;
     background-color: #F89D18;
 }
 
@@ -408,7 +409,7 @@ body {
 
 .img-colcover{
     height: 260px;
-    width: 245px;
+    /* width: 245px; */
 }
 .img-colcover img{
     height: 100%;
@@ -434,9 +435,51 @@ body {
     font-size:14px;
 }
 
-.mens-cards{
-    /* background: #eee; */
+/* .mens-cards{
+    background: #eee;
+} */
+
+
+.twosect-left{
+    position: relative;
+    height: 180px;
+    background: url("../images/twosection1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.ts-right{
+    background: url("../images/twosection2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.twosect-left h3,.twosect-left p{
+    text-transform: uppercase;
+    text-align:center;
+    color: #ffffff;
+}
+.twosect-left h3{
+    margin-top: 68px;
+}
+
+#twosect-hovered{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    opacity: .6;
+    color: #fff;
+    z-index: 3;
+}
+
+.twosect-text{
+    position: absolute;
+    left: 30%;
+    top: 1%;
+    z-index: 2;
+}
+
+
 /* media queries */
 @media (max-width:1200px) {
     #mega-drops {

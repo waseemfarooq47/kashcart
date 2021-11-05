@@ -200,7 +200,7 @@ body {
 }
 
 .toprate-title,
-.toprate-price {
+.toprate-price{
     color: #666;
     font-size: 15px;
     text-transform: capitalize;
@@ -315,7 +315,7 @@ body {
     height: 35px;
 }
 
-#middlePart{
+#middlePart, #testmonial{
     margin-top: 80px;
 }
 
@@ -384,7 +384,7 @@ body {
     color: #fff;
 }
 /* mens collection */
-.mens-collection{
+.mens-collection,.newAccess{
     margin-top: 88px;
     border-bottom: 3px solid #eeeeee;
 }
@@ -480,6 +480,71 @@ body {
 }
 
 
+/* new accsories */
+.newAccess{
+    border-bottom: 2px solid #eee;
+    text-transform: uppercase;
+}
+
+.orange-line{
+    position: absolute;
+    width: 224px;
+    height: 3px;
+    bottom: -3px;
+    left: 0px;
+    top: -3;
+    background-color: #F89D18;
+}
+
+.newacc-img{
+    height: 254px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.newacc-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.accimage-title a{
+    text-decoration:none;
+    color: #666;
+    cursor: pointer;
+}
+
+.accimage-title a:hover{
+    color: #F89D18 !important;
+}
+
+.real-accprice{
+    font-size: 26px;
+}
+
+.new-acces-cards >.card{
+    border-radius: 1px !important;
+}
+
+
+/* testmonial */
+#testmonial{
+    position:relative;
+    height:300px;
+    width: 100%;
+    background-image: url("../images/testmonial.png");
+    background-size: 100% 300px ;
+    background-repeat: no-repeat;
+}
+
+.test-overlay{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    opacity: .6;
+    color: #fff;
+    z-index: 3;
+}
 /* media queries */
 @media (max-width:1200px) {
     #mega-drops {
